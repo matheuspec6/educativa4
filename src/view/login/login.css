@@ -1,0 +1,136 @@
+*{
+    font-family: 'Roboto', sans-serif !important;
+}   
+.icon{
+    width: 3px;
+}
+.box{
+    width: 35%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+p{
+    font-size: 18px;
+}
+.link{
+    font-size: 20px;
+}
+.link,a{
+    font-size: 20px;
+    color: #f59c00;
+    padding-top: 5%;
+}
+.texto{
+    margin-bottom: 3% !important;
+}
+button{
+    position: absolute !important;
+    transform: translate(-50%,-50%) !important;
+}
+button{
+    background: none !important;
+    color: #f59c00 !important;
+    width: 240px !important;
+    height: 60px !important;
+    font-size: 18px !important;
+    border-radius: 4px !important;
+    transition: .6s !important;
+    border: 1px solid #f59c00 !important;
+    overflow: hidden !important;
+}
+button:focus{
+    outline: none !important;
+}
+button:before{
+    content: '' !important;
+    display: block !important;
+    position: absolute !important;
+    background: rgba(255,255,255,.5) !important;
+    width: 60px !important;
+    height: 100% !important;
+    left: 0 !important;
+    top: 0 !important;
+    opacity: .5 !important;
+    filter: blur(30px) !important;
+    transform: translateX(-130px) skewX(-15deg) !important;
+}
+button:after{
+    content: '' !important;
+    display: block !important;
+    position: absolute !important;
+    background: rgba(255,255,255,.2) !important;
+    width: 30px !important;
+    height: 100% !important;
+    left: 30px !important;
+    top: 0 !important;
+    opacity: 0 !important;
+    filter: blur(30px) !important;
+    transform: translateX(-100px) scaleX(-15deg) !important;
+}
+.botao{
+    margin-top: 8% !important;
+    margin-bottom: 13% !important;
+}
+button:hover:before {
+   transform: translateX(300px) skewX(-15deg)!important;
+    opacity: .6!important;
+    transition: .7s!important;
+}
+
+button:hover:after {
+   transform: translateX(300px) skewX(-15deg)!important;
+    opacity: 1!important;
+    transition: .7s!important;
+}
+button:hover {
+
+    background: #ffbc42!important;
+    color: #ffffff !important;
+    cursor: pointer!important;
+  
+  }
+
+.card2{
+    margin-top: 2% !important;
+    border-radius: 20px !important;
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+}
+.image{
+    width: 100%;
+    height: auto;
+    margin-top: 15% !important;
+    border-radius: 10px !important;
+}
+
+.logo{
+   height: auto;
+   margin-bottom: 5%;
+}
+
+  /* label color */
+  .input-field, label {
+    color: #808080 !important;
+  }
+  /* icon prefix focus color */
+  .input-field, .prefix.active {
+    color: #000000 !important;
+  }
+  .close{
+    color: #808080 !important;
+    opacity: 70%;
+    margin-top: 1% !important;
+    margin-left: 97%;
+    display: inline-flex !important;
+    position: absolute !important;
+}
+
+
+@media (max-width:900px) {
+    .card, .horizontal, .box {
+      display: none;
+      margin-left: auto;
+    }
+  }

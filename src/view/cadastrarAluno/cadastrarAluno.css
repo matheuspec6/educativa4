@@ -1,0 +1,53 @@
+.box2{
+
+   margin-left: 30% !important;
+   width: 60% !important;
+}
+.bg{
+    background-color:#eceff1
+}
+.card-title{
+    margin-top: 10px;
+    margin-bottom: 50px !important;
+    color: #ffbc42;
+}
+hr{
+    color: #ffbc42;
+    opacity: 40% !important;
+    width: 45%;
+    margin-right: 100%;
+}
+.form2{
+    margin-left: 4% !important;
+    margin-bottom: 5px !important;
+}
+.sexo{
+   margin-bottom: 5px;
+}
+.tt{
+    margin-left: 2%;
+    padding: 5px;
+}
+.card-action{
+    margin-right: 10px !important;
+}
+.btnCadastrar{
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+}
+
+@media (max-width:910px) {
+    .teste {
+        display: none;
+    }
+    .card{
+        float:none; /* disable the float */
+        display: inline-block; /* make blocks inline-block */
+        text-align: initial; /* restore text-align to default */
+    }
+    .card-action{
+        float:none; /* disable the float */
+        display: inline-block; /* make blocks inline-block */
+        text-align: initial; /* restore text-align to default */
+    }
+  }

@@ -1,0 +1,83 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.logo{
+        width: 85%;
+        height: auto;
+        padding: 7%;
+}
+.icon{
+    padding: 5%;
+    
+}
+.bars {
+    padding: 15px;
+    color: #f59c00;
+    font-size: 28px;
+    height: auto !important;
+}
+
+
+.search {
+  width: 100% !important;
+  position: relative !important;
+  display: flex !important;
+}
+
+.searchTerm {
+  width: 100% !important;
+  border: 1px solid #f59c00 !important;
+  padding: 5px !important;
+  height: 40px !important;
+  border-radius: 5px 0 0 5px !important;
+  outline: none !important;
+  color: #b7b7a4 !important;
+}
+
+.searchTerm:focus{
+  color: #84a59d !important;
+}
+
+.searchButton {
+  
+  width: 50px !important;
+  height: 40px !important;
+  background: #f59c00 !important;
+  text-align: center !important;
+  color: #fff !important;
+  border-radius: 0 5px 5px 0 !important;
+  cursor: pointer !important;
+  font-size: 20px !important;
+
+}
+
+.wrap{
+  width: 70% !important;
+  position: absolute !important;
+  top:  2%;
+  bottom: 20%;
+  left: 27% !important;
+}
+.activeRoute {
+  color: #f59c00 !important;
+  font-weight: bold !important;
+  bottom: 50% !important;
+
+  border-right: 6px solid #f59c00 !important;
+  
+}
+@media (max-width: 900px){
+
+  .wrap{
+    width: 86% !important;
+    position: absolute !important;
+    top:  1%;
+    bottom: 20%;
+    left: 8% !important;
+  }
+}
+
+
+
+  

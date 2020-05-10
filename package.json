@@ -1,0 +1,56 @@
+{
+  "name": "projetin",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@rooks/use-outside-click": "^3.6.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "cep-promise": "^3.0.9",
+    "chart.js": "^2.9.3",
+    "firebase": "^7.13.1",
+    "hover.css": "^2.3.2",
+    "jquery": "^3.4.1",
+    "jquery-mask-plugin": "^1.14.16",
+    "materialize-css": "^1.0.0-rc.2",
+    "node-emoji": "^1.10.0",
+    "react": "^16.13.1",
+    "react-chartjs-2": "^2.9.0",
+    "react-dom": "^16.13.0",
+    "react-emoji-render": "^1.2.2",
+    "react-multi-select-component": "^2.0.1",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "react-select": "^3.1.0",
+    "react-useanimations": "^1.2.13",
+    "redux": "^4.0.5",
+    "sweetalert2": "^9.10.6",
+    "sweetalert2-react-content": "^3.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "babel-plugin-transform-goober": "^1.1.0"
+  }
+}

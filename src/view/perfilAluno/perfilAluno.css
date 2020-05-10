@@ -1,0 +1,37 @@
+.search {
+    width: 100% !important;
+    position: relative !important;
+    display: flex !important;
+  }
+  
+  .searchTerm {
+    width: 100% !important;
+    border: 1px solid #f59c00 !important;
+    padding: 5px !important;
+    height: 40px !important;
+    border-radius: 5px !important;
+    outline: none !important;
+    color: #000000 !important;
+  }
+  
+.icone{
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+
+@media (max-width:910px) {
+    .teste {
+        display: none;
+    }
+    .card{
+        float:none; /* disable the float */
+        display: inline-block; /* make blocks inline-block */
+        text-align: initial; /* restore text-align to default */
+    }
+    .card-action{
+        float:none; /* disable the float */
+        display: inline-block; /* make blocks inline-block */
+        text-align: initial; /* restore text-align to default */
+    }
+  }
